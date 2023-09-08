@@ -1,0 +1,67 @@
+{
+  "id": "home",
+  "label": "home",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "name",
+          "placeholder": ""
+        }
+      },
+      "birthday": {
+        "type": "Text",
+        "config": {
+          "label": "birthday",
+          "placeholder": ""
+        }
+      },
+      "interest": {
+        "type": "Text",
+        "config": {
+          "label": "interest",
+          "placeholder": ""
+        }
+      },
+      "hometown": {
+        "type": "Text",
+        "config": {
+          "label": "hometown",
+          "placeholder": ""
+        }
+      },
+      "mugshot": {
+        "type": "Image",
+        "config": {
+          "label": "mugshot",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "interest2": {
+        "type": "Text",
+        "config": {
+          "label": "interest2",
+          "placeholder": ""
+        }
+      },
+      "interest3": {
+        "type": "Text",
+        "config": {
+          "label": "interest3",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
