@@ -58,8 +58,8 @@
         <div class="planet venus"></div>
     </div>
     <div class="rocket-container">
-        <img src="./rocket.svg" alt= "rocket" class="rocket">
-        <img src="./rocket-fire.svg" alt="rocket fire" class="rocket-fire">
+        <img src="/rocket.svg" alt= "rocket" class="rocket">
+        <img src="/rocket-fire.svg" alt="rocket fire" class="rocket-fire">
     </div>
 </section>
 
@@ -142,7 +142,7 @@
     .mars{
         top: 30%;
         right: 10%;
-        background-image: url("./marsBackground.svg");
+        background-image: url("/marsBackground.svg");
         width: 10vw;
         height: 10vw;
         max-width: 100px;
@@ -157,7 +157,7 @@
         height: 9vw;
         max-width: 120px;
         max-height: 120px;
-        background-image: url("./venusBackground.svg");
+        background-image: url("/venusBackground.svg");
         background-color: #FFC649;
     }
 
@@ -168,7 +168,7 @@
         height: 16vw;
         max-width: 150px;
         max-height: 150px;
-        background-image: url("./jupiterBackground.svg");
+        background-image: url("/jupiterBackground.svg");
         background-color: #E3DCCB;
     }
 
@@ -204,7 +204,7 @@
         width: 3vw;
         height: 3vw;
         transform: rotate(80deg);
-        animation: moveRocket 2pnpm i -g vercel0s ease-in-out infinite;
+        animation: moveRocket 20s ease-in-out infinite;
         z-index: 50;
     }
 
