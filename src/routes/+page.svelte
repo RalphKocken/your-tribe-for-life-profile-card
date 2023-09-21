@@ -68,7 +68,7 @@
 </section>
 
 <section class="interest-field">
-    <p class="text">I like to play {data.interest} and {data.interest2}, also I like to {data.interest3}. Messing aroung with CSS and Javascript animations is something I enjoy too!
+    <p class="text">I like to play {data.interest} and {data.interest2}, also I like to {data.interest3}. Messing around with CSS and Javascript animations is something I enjoy too!
 </section>
 
 <section class="info-field">
